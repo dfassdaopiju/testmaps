@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://marma-folie.pl/sitemap.xml
+
+# Disallow unnecessary files
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.log$
+Disallow: /temp/
+
+# Allow important resources
+Allow: /styles.css
+Allow: /script.js
+Allow: /images/
+Allow: /fonts/
+
+# Crawl-delay (optional)
+Crawl-delay: 1
